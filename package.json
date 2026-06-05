@@ -6,11 +6,10 @@
     "start": "node src/server.js"
   },
   "dependencies": {
+    "@turf/turf": "^7.3.5",
+    "better-sqlite3": "^12.10.0",
     "express": "^4.19.2",
-    "better-sqlite3": "^11.0.0",
-    "rbush": "^3.0.1",
-    "@turf/turf": "^7.0.0",
-    "wkx": "^0.5.0",
-    "ws": "^8.18.0"
+    "rbush": "^4.0.1",
+    "wkx": "^0.5.0"
   }
 }
