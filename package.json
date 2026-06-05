@@ -1,19 +1,16 @@
 {
   "name": "spotter-feed",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
   "dependencies": {
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "stompit": "^1.0.0"
+    "express": "^4.19.2",
+    "better-sqlite3": "^11.0.0",
+    "rbush": "^3.0.1",
+    "@turf/turf": "^7.0.0",
+    "wkx": "^0.5.0",
+    "ws": "^8.18.0"
   }
 }
